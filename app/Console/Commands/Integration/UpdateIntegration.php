@@ -77,5 +77,7 @@ class UpdateIntegration extends Command
         );
 
         $this->info('İşlem gerçekleştirilmiştir.');
+
+        return 0;
     }
 }

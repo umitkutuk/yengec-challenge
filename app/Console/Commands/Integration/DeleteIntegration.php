@@ -55,5 +55,7 @@ class DeleteIntegration extends Command
         $this->integrationService->destroyIntegration($this->argument('id'));
 
         $this->info('İşlem gerçekleştirilmiştir.');
+
+        return 0;
     }
 }
